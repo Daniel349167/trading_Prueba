@@ -46,7 +46,7 @@ Aplicación Flutter que se conecta a la API pública de Binance vía WebSocket p
 
 ## 📱 APK listo para ejecutar
 
-En la raíz del repositorio encontrarás el archivo `app-release.apk`.  
+En la raíz del repositorio encontrarás el archivo `trading.apk`.  
 Solo cópialo a tu dispositivo Android y ejecútalo directamente (asegúrate de permitir instalación de orígenes desconocidos).
 
 ## 🗂 Estructura del proyecto
@@ -63,6 +63,6 @@ trading_dashboard_app/
 ├─ assets/
 │  └─ splash.png  
 ├─ pubspec.yaml  
-└─ app-release.apk       ← APK compilado
+└─ trading.apk       ← APK compilado
 ```
 
