@@ -31,8 +31,8 @@ Aplicación Flutter que se conecta a la API pública de Binance vía WebSocket p
 
 1. Clona este repositorio  
    ```bash
-   git clone https://github.com/tu-usuario/trading_dashboard_app.git
-   cd trading_dashboard_app
+   git clone https://github.com/Daniel349167/trading_Prueba.git
+   cd trading_Prueba
    ```
 2. Obtén dependencias  
    ```bash
