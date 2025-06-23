@@ -1,0 +1,42 @@
+name: trading_dashboard_app     
+description: "Trading Dashboard App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.7.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.0.15
+  web_socket_channel: ^2.4.0
+  provider: ^6.1.1
+  intl: ^0.18.1
+  fl_chart: ^0.65.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.6
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon.png     
+    - assets/splash.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+
+flutter_native_splash:
+  color: "#000000" 
+  image: assets/splash.png
+  android: true
+  ios: true
+  web: false
